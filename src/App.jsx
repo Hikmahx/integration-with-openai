@@ -1,4 +1,5 @@
 import Search from "./components/Search";
+import OpenAI from "./components/OpenAI";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <h2 className="">Generate any article based on a topic of your choice</h2>
       </div>
       <Search />
+      <OpenAI />
     </div>
   );
 }
